@@ -39,7 +39,6 @@ if (!isTemplate($page) || $isInc !== false){
 	goToURL();
 }
 
-
 // Формирование страниц
 $content = view($page, [], true);
 
